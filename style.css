@@ -1,0 +1,118 @@
+* {
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+    color: white;
+    
+  }
+  
+  body {
+    
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+  }
+  .tit
+  {
+    font-size: 45px;
+    text-align: center;
+  }
+  ::placeholder {
+    color:rgb(197, 196, 185);
+  }
+  .wrapper {
+    height: 525px;
+    width: 360px;
+    color: white;
+    box-shadow:3px 3px 5px rgba(0, 0,0,0.8) ;
+    background: rgba(255, 255,255,0.2);
+    border-radius: 10px;
+    backdrop-filter:blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 1.2rem;
+    margin: 100px auto;
+  }
+  
+  #topContainer {
+    margin-top: 2rem;
+  }
+  
+  .container {
+    margin-top: 1.4rem;
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+  }
+  
+  .inputContainer {
+    background:none;
+    height: 40px;
+    box-shadow:3px 3px 5px rgba(0, 0,0,0.4) ;
+    border-radius: 1.4rem;
+    padding: 0 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  #billTotalInput,
+  #tipInput {
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    outline: none;
+    padding: none;
+  }
+  button:hover{
+    cursor: pointer;
+
+  }
+  .buttonContainer {
+    background: hsla(294, 88%, 30%, 0.62);
+    font-size: 30px;
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+  }
+  
+  .splitButton {
+    background: none;
+    border: none;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .splitButton {
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+  }
+  
+  .buttonText {
+    color:rgb(231, 213, 213);
+  }
+  
+  .splitAmount {
+    font-size: 1.6rem;
+    margin: 0.8rem;
+  }
+  
+  #bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .totalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  .total {
+    font-size: 2rem;
+  }
+  
